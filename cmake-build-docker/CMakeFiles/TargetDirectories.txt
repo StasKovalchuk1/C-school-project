@@ -1,0 +1,3 @@
+/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles/rebuild_cache.dir
+/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles/edit_cache.dir
+/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles/nasobeni_matic.dir

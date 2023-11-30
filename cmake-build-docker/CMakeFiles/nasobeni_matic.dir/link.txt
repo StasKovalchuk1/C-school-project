@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/nasobeni_matic.dir/main.cpp.o -o nasobeni_matic 

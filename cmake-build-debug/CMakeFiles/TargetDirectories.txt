@@ -1,0 +1,3 @@
+/Users/stanislavkovalcuk/nasobeni-matic/cmake-build-debug/CMakeFiles/nasobeni_matic.dir
+/Users/stanislavkovalcuk/nasobeni-matic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stanislavkovalcuk/nasobeni-matic/cmake-build-debug/CMakeFiles/rebuild_cache.dir

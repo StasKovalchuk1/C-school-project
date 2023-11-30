@@ -1,0 +1,7 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /tmp/nasobeni-matic -B /tmp/nasobeni-matic/cmake-build-docker
+-- C++ Compiler: /usr/bin/c++
+-- C++ Compiler Version: 10.2.1
+-- C++ Standard: 17
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/nasobeni-matic/cmake-build-docker
