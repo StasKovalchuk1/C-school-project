@@ -93,12 +93,12 @@ clean: CMakeFiles/nasobeni_matic.dir/clean
 CMakeFiles/nasobeni_matic.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=1,2 "Built target nasobeni_matic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target nasobeni_matic"
 .PHONY : CMakeFiles/nasobeni_matic.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/nasobeni_matic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/nasobeni-matic/cmake-build-docker/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/nasobeni-matic/cmake-build-docker/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/nasobeni_matic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/nasobeni-matic/cmake-build-docker/CMakeFiles 0
 .PHONY : CMakeFiles/nasobeni_matic.dir/rule

@@ -1,7 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/stanislavkovalcuk/nasobeni-matic -B /Users/stanislavkovalcuk/nasobeni-matic/cmake-build-debug
--- C++ Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
--- C++ Compiler Version: 14.0.3.14030022
--- C++ Standard: 17
--- Configuring done (0.0s)
+-- Configuring done (0.1s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/stanislavkovalcuk/nasobeni-matic/cmake-build-debug

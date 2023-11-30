@@ -6,8 +6,13 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(core-files
         Matrix.hpp
-        Matrix.cpp)
-
+        Matrix.cpp
+        Solver.cpp
+        Solver.h
+        StrassenSolver.cpp
+        StrassenSolver.h
+        BasicSolver.cpp
+        BasicSolver.h)
 
 add_executable(nasobeni_matic
         main.cpp

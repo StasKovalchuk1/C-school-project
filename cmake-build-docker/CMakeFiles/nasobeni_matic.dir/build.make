@@ -89,17 +89,77 @@ CMakeFiles/nasobeni_matic.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nasobeni_matic.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/nasobeni-matic/main.cpp -o CMakeFiles/nasobeni_matic.dir/main.cpp.s
 
+CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o: CMakeFiles/nasobeni_matic.dir/flags.make
+CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o: ../Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o -c /tmp/nasobeni-matic/Matrix.cpp
+
+CMakeFiles/nasobeni_matic.dir/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nasobeni_matic.dir/Matrix.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/nasobeni-matic/Matrix.cpp > CMakeFiles/nasobeni_matic.dir/Matrix.cpp.i
+
+CMakeFiles/nasobeni_matic.dir/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nasobeni_matic.dir/Matrix.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/nasobeni-matic/Matrix.cpp -o CMakeFiles/nasobeni_matic.dir/Matrix.cpp.s
+
+CMakeFiles/nasobeni_matic.dir/Solver.cpp.o: CMakeFiles/nasobeni_matic.dir/flags.make
+CMakeFiles/nasobeni_matic.dir/Solver.cpp.o: ../Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nasobeni_matic.dir/Solver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nasobeni_matic.dir/Solver.cpp.o -c /tmp/nasobeni-matic/Solver.cpp
+
+CMakeFiles/nasobeni_matic.dir/Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nasobeni_matic.dir/Solver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/nasobeni-matic/Solver.cpp > CMakeFiles/nasobeni_matic.dir/Solver.cpp.i
+
+CMakeFiles/nasobeni_matic.dir/Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nasobeni_matic.dir/Solver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/nasobeni-matic/Solver.cpp -o CMakeFiles/nasobeni_matic.dir/Solver.cpp.s
+
+CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o: CMakeFiles/nasobeni_matic.dir/flags.make
+CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o: ../StrassenSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o -c /tmp/nasobeni-matic/StrassenSolver.cpp
+
+CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/nasobeni-matic/StrassenSolver.cpp > CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.i
+
+CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/nasobeni-matic/StrassenSolver.cpp -o CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.s
+
+CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o: CMakeFiles/nasobeni_matic.dir/flags.make
+CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o: ../BasicSolver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o -c /tmp/nasobeni-matic/BasicSolver.cpp
+
+CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/nasobeni-matic/BasicSolver.cpp > CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.i
+
+CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/nasobeni-matic/BasicSolver.cpp -o CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.s
+
 # Object files for target nasobeni_matic
 nasobeni_matic_OBJECTS = \
-"CMakeFiles/nasobeni_matic.dir/main.cpp.o"
+"CMakeFiles/nasobeni_matic.dir/main.cpp.o" \
+"CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o" \
+"CMakeFiles/nasobeni_matic.dir/Solver.cpp.o" \
+"CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o" \
+"CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o"
 
 # External object files for target nasobeni_matic
 nasobeni_matic_EXTERNAL_OBJECTS =
 
 nasobeni_matic: CMakeFiles/nasobeni_matic.dir/main.cpp.o
+nasobeni_matic: CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o
+nasobeni_matic: CMakeFiles/nasobeni_matic.dir/Solver.cpp.o
+nasobeni_matic: CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o
+nasobeni_matic: CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o
 nasobeni_matic: CMakeFiles/nasobeni_matic.dir/build.make
 nasobeni_matic: CMakeFiles/nasobeni_matic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nasobeni_matic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/nasobeni-matic/cmake-build-docker/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable nasobeni_matic"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nasobeni_matic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

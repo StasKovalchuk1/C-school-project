@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/nasobeni_matic.dir/main.cpp.o -o nasobeni_matic 
+/usr/bin/c++ -g CMakeFiles/nasobeni_matic.dir/main.cpp.o CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o CMakeFiles/nasobeni_matic.dir/Solver.cpp.o CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o -o nasobeni_matic 

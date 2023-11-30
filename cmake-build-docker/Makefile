@@ -142,6 +142,114 @@ nasobeni_matic/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/build
 .PHONY : nasobeni_matic/fast
 
+BasicSolver.o: BasicSolver.cpp.o
+
+.PHONY : BasicSolver.o
+
+# target to build an object file
+BasicSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o
+.PHONY : BasicSolver.cpp.o
+
+BasicSolver.i: BasicSolver.cpp.i
+
+.PHONY : BasicSolver.i
+
+# target to preprocess a source file
+BasicSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.i
+.PHONY : BasicSolver.cpp.i
+
+BasicSolver.s: BasicSolver.cpp.s
+
+.PHONY : BasicSolver.s
+
+# target to generate assembly for a file
+BasicSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.s
+.PHONY : BasicSolver.cpp.s
+
+Matrix.o: Matrix.cpp.o
+
+.PHONY : Matrix.o
+
+# target to build an object file
+Matrix.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o
+.PHONY : Matrix.cpp.o
+
+Matrix.i: Matrix.cpp.i
+
+.PHONY : Matrix.i
+
+# target to preprocess a source file
+Matrix.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/Matrix.cpp.i
+.PHONY : Matrix.cpp.i
+
+Matrix.s: Matrix.cpp.s
+
+.PHONY : Matrix.s
+
+# target to generate assembly for a file
+Matrix.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/Matrix.cpp.s
+.PHONY : Matrix.cpp.s
+
+Solver.o: Solver.cpp.o
+
+.PHONY : Solver.o
+
+# target to build an object file
+Solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/Solver.cpp.o
+.PHONY : Solver.cpp.o
+
+Solver.i: Solver.cpp.i
+
+.PHONY : Solver.i
+
+# target to preprocess a source file
+Solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/Solver.cpp.i
+.PHONY : Solver.cpp.i
+
+Solver.s: Solver.cpp.s
+
+.PHONY : Solver.s
+
+# target to generate assembly for a file
+Solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/Solver.cpp.s
+.PHONY : Solver.cpp.s
+
+StrassenSolver.o: StrassenSolver.cpp.o
+
+.PHONY : StrassenSolver.o
+
+# target to build an object file
+StrassenSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o
+.PHONY : StrassenSolver.cpp.o
+
+StrassenSolver.i: StrassenSolver.cpp.i
+
+.PHONY : StrassenSolver.i
+
+# target to preprocess a source file
+StrassenSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.i
+.PHONY : StrassenSolver.cpp.i
+
+StrassenSolver.s: StrassenSolver.cpp.s
+
+.PHONY : StrassenSolver.s
+
+# target to generate assembly for a file
+StrassenSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nasobeni_matic.dir/build.make CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.s
+.PHONY : StrassenSolver.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -178,6 +286,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nasobeni_matic"
+	@echo "... BasicSolver.o"
+	@echo "... BasicSolver.i"
+	@echo "... BasicSolver.s"
+	@echo "... Matrix.o"
+	@echo "... Matrix.i"
+	@echo "... Matrix.s"
+	@echo "... Solver.o"
+	@echo "... Solver.i"
+	@echo "... Solver.s"
+	@echo "... StrassenSolver.o"
+	@echo "... StrassenSolver.i"
+	@echo "... StrassenSolver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

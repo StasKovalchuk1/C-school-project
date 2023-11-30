@@ -82,6 +82,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/tmp/nasobeni-matic/BasicSolver.cpp">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/BasicSolver.h">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/Matrix.cpp">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/Matrix.hpp">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/Solver.cpp">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/Solver.h">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/StrassenSolver.cpp">
+			<Option target="nasobeni_matic"/>
+		</Unit>
+		<Unit filename="/tmp/nasobeni-matic/StrassenSolver.h">
+			<Option target="nasobeni_matic"/>
+		</Unit>
 		<Unit filename="/tmp/nasobeni-matic/main.cpp">
 			<Option target="nasobeni_matic"/>
 		</Unit>

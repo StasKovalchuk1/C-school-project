@@ -55,6 +55,30 @@ build CMakeFiles/nasobeni_matic.dir/main.cpp.o: CXX_COMPILER__nasobeni_matic_uns
   OBJECT_DIR = CMakeFiles/nasobeni_matic.dir
   OBJECT_FILE_DIR = CMakeFiles/nasobeni_matic.dir
 
+build CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o: CXX_COMPILER__nasobeni_matic_unscanned_Debug /Users/stanislavkovalcuk/nasobeni-matic/Matrix.cpp || cmake_object_order_depends_target_nasobeni_matic
+  DEP_FILE = CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nasobeni_matic.dir
+  OBJECT_FILE_DIR = CMakeFiles/nasobeni_matic.dir
+
+build CMakeFiles/nasobeni_matic.dir/Solver.cpp.o: CXX_COMPILER__nasobeni_matic_unscanned_Debug /Users/stanislavkovalcuk/nasobeni-matic/Solver.cpp || cmake_object_order_depends_target_nasobeni_matic
+  DEP_FILE = CMakeFiles/nasobeni_matic.dir/Solver.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nasobeni_matic.dir
+  OBJECT_FILE_DIR = CMakeFiles/nasobeni_matic.dir
+
+build CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o: CXX_COMPILER__nasobeni_matic_unscanned_Debug /Users/stanislavkovalcuk/nasobeni-matic/StrassenSolver.cpp || cmake_object_order_depends_target_nasobeni_matic
+  DEP_FILE = CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nasobeni_matic.dir
+  OBJECT_FILE_DIR = CMakeFiles/nasobeni_matic.dir
+
+build CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o: CXX_COMPILER__nasobeni_matic_unscanned_Debug /Users/stanislavkovalcuk/nasobeni-matic/BasicSolver.cpp || cmake_object_order_depends_target_nasobeni_matic
+  DEP_FILE = CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/nasobeni_matic.dir
+  OBJECT_FILE_DIR = CMakeFiles/nasobeni_matic.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target nasobeni_matic
@@ -63,7 +87,7 @@ build CMakeFiles/nasobeni_matic.dir/main.cpp.o: CXX_COMPILER__nasobeni_matic_uns
 #############################################
 # Link the executable nasobeni_matic
 
-build nasobeni_matic: CXX_EXECUTABLE_LINKER__nasobeni_matic_Debug CMakeFiles/nasobeni_matic.dir/main.cpp.o
+build nasobeni_matic: CXX_EXECUTABLE_LINKER__nasobeni_matic_Debug CMakeFiles/nasobeni_matic.dir/main.cpp.o CMakeFiles/nasobeni_matic.dir/Matrix.cpp.o CMakeFiles/nasobeni_matic.dir/Solver.cpp.o CMakeFiles/nasobeni_matic.dir/StrassenSolver.cpp.o CMakeFiles/nasobeni_matic.dir/BasicSolver.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/nasobeni_matic.dir
   POST_BUILD = :
