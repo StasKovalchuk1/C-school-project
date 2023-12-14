@@ -11,6 +11,9 @@ public:
     StrassenSolver(Matrix matrix1, Matrix matrix2) : Solver(matrix1, matrix2) {}
 
     Matrix multiply() override;
+
+    Matrix multiplyAndDisplayTime() override;
+    Matrix multiplyAndDisplayResultAndTime() override;
 };
 
 
