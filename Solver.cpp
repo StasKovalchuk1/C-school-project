@@ -10,7 +10,7 @@ Matrix Solver::multiplyAndDisplayTime() {
     auto start = std::chrono::high_resolution_clock::now();
     Matrix matrix = multiply();
     auto end = std::chrono::high_resolution_clock::now();
-    std::cout << "Needed " << std::fixed << std::setprecision(6) << to_seconds(end - start).count() << " mсs to finish.\n";
+    std::cout << "Needed " << std::fixed << std::setprecision(6) << to_seconds(end - start).count() << " s to finish.\n";
     return matrix;
 }
 
@@ -19,7 +19,7 @@ Matrix Solver::multiplyAndDisplayResultAndTime() {
     Matrix matrix = multiply();
     auto end = std::chrono::high_resolution_clock::now();
     printMatrix(matrix);
-    std::cout << "Needed " << std::fixed << std::setprecision(6) << to_seconds(end - start).count() << " mсs to finish.\n";
+    std::cout << "Needed " << std::fixed << std::setprecision(6) << to_seconds(end - start).count() << " s to finish.\n";
     return matrix;
 }
 

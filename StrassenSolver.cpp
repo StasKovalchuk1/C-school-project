@@ -191,7 +191,7 @@ Matrix StrassenSolver::multiplyAndDisplayTime() {
     Matrix matrix = multiply();
     auto end = std::chrono::high_resolution_clock::now();
     matrix.elements = removePadding(matrix.elements, originRows, originCols);
-    std::cout << "Needed " << std::fixed <<std::setprecision(6) << to_seconds(end - start).count() << " mсs to finish.\n";
+    std::cout << "Needed " << std::fixed <<std::setprecision(6) << to_seconds(end - start).count() << " s to finish.\n";
     return matrix;
 }
 
@@ -205,6 +205,6 @@ Matrix StrassenSolver::multiplyAndDisplayResultAndTime() {
     auto end = std::chrono::high_resolution_clock::now();
     matrix.elements = removePadding(matrix.elements, originRows, originCols);
     printMatrix(matrix);
-    std::cout << "Needed " << std::fixed <<std::setprecision(6) << to_seconds(end - start).count() << " mсs to finish.\n";
+    std::cout << "Needed " << std::fixed <<std::setprecision(6) << to_seconds(end - start).count() << " s to finish.\n";
     return matrix;
 }
